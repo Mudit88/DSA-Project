@@ -8,11 +8,10 @@ Given GPS co-ordinates(in degrees) of a person who needs a cab and co-ordinates 
 1. Obtain latitude and longitude of each cab in string format along with their
 user-id and name from the JSON encoded input file.
 
-2. Convert latitude and longitude of the cab present in string format to double.
-
-3. Convert latitude and longitude of both, the user and the cab present in
+2. Convert latitude and longitude of both, the user and the cab present in
 degrees to radians.
 
+3. Convert latitude and longitude of the cab present in string format to double.
 4. Calculate distance between the user’s location and the cab using Great Circle
 Distance formula.
 
